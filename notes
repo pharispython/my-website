@@ -1,0 +1,45 @@
+go to favicon.io and draw own favicon
+download and move it into project folder and use <link> tags to apply it to website
+Div is a content division element
+Each element is just  a box with 4 sides: top, bottom, left and right
+Margin is a buffer region between elements
+paragraph is a block element
+span is an inline element
+inline-block is a combination of inline and block elements 
+Display None element gets rid of element
+visibility : none makes elements disappear
+z-index determines which element sits on which element
+children sit on top of parents
+Position property can be used by following:
+Static: default positioning for html
+ Relative: positioning(adding margin) relative to its static/natural position
+ Absolute: 
+ Fixed positioning
+
+ coordinates can be set to: Top, Bottom, Left, Right
+ absolute positioning positions elements(adds margins) relative to parent
+ margin: auto centers elements
+
+ ABOUT MARGINS:
+ goes clockwise : top, right, bottom, left hence margin: 100px auto 100px auto; means 100px top, auto on right, 100px bottom, auto left
+ margin: 5% means 5% on all sides 
+ margin: 10px means 10px margin on all sides
+ margin: 1.6em 20px;  means top and bottom : 1.6em left and right 20px
+ margin 10px 3% -1em means top: 10px, left and right 3% bottom -1em
+ margin 10px 3px 30px 5px means top 10 px, right 3px , bottom 30px, left 5px
+ margin 2em auto: means top and bottom 2em. Box is horizontally centered
+ margin: auto means top and bottom 0 margin, Box is horizontally centered.
+
+ FONTS YOU CAN USE:
+ fonts.google.com select and download font-family and paste link in head section of html page
+
+ TO FIND ICONS :
+ go to flaticon.com
+ 1em = 16px = 100%
+ em is inherited. i.e if parent font-size is 2em and h1 is 5.625em...image becomes much bigger since it inherits from parent...em is dynamic whilst px is static
+ rem is root em and ignores parent size... by setting child em relative to parent.
+ rem is more reliable
+
+ clear: left, rigt, ... is opposite of float: left, right,...
+ float makes text wrap around element...
+ float NOT recommended for positioning 
